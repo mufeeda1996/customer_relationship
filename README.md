@@ -1,10 +1,10 @@
-# 🧑‍💻 Customer & Case Management API
+ Customer & Case Management API
 
 This is a backend customer and case management system built with **Node.js**, **Express**,and  **MongoDB**. It includes user authentication.
 
 ---
 
-## 🚀 Features
+ Features
 
 - User Registration & Login (JWT-based)
 - Protected routes using middleware
@@ -14,7 +14,7 @@ This is a backend customer and case management system built with **Node.js**, **
 
 ---
 
-## ⚙️ Tech Stack
+ Tech Stack
 
 - Backend: Node.js, Express
 - Database: MongoDB + Mongoose
@@ -24,7 +24,7 @@ This is a backend customer and case management system built with **Node.js**, **
 
 
 
- ## sample data of user
+ sample data of user
  ----------------------------
  {
   "username": "testuser",
@@ -35,7 +35,7 @@ This is a backend customer and case management system built with **Node.js**, **
  POST    /api/users/register           User register 
  POST    /api/users/login              Useer login   
 
- ## sample data of customer crud operation
+ sample data of customer crud operation
  {
      "name": "jhon",
      "contact_info": "jhon@gmail.com",
@@ -50,7 +50,7 @@ This is a backend customer and case management system built with **Node.js**, **
 
 
 
- ## sample data of case crud operation
+ sample data of case crud operation
  {
   "customer_id": "64bc87e3f32a7a001fabe123",
   "priority": "High",
